@@ -1,35 +1,36 @@
-# Description
+# 설명
 
-This is a simple repository containing a `README.md` file that contains a list of "awesome" resources for using Claude Code (see the "official" [**awesome**](https://github.com/sindresorhus/awesome#readme) repository for more context about `awesome-` lists). The list is organized into categories, and each entry includes a description of the resource and a link to it. Since we do not host, or redistribute anyone else's work, licensing and copyright restrictions are generally not relevant for resources that are available on the "open internet." The repository also includes a `CONTRIBUTING.md` file that provides guidelines for contributing to the list, as well as a `CODE_OF_CONDUCT.md` file that outlines the expected behavior of contributors. Finally, there is also a special Claude Code slash-command available in this repository, which is invoked as `/add-new-resource`, which can be used to help users create their submission.
+이것은 Claude Code 사용을 위한 "훌륭한" 리소스 목록을 담고 있는 `README.md` 파일을 포함하는 간단한 저장소입니다 (`awesome-` 목록에 대한 자세한 내용은 "공식" [**awesome**](https://github.com/sindresorhus/awesome#readme) 저장소를 참조하십시오). 목록은 범주별로 구성되며 각 항목에는 리소스에 대한 설명과 링크가 포함됩니다. 저희는 다른 사람의 작업을 호스팅하거나 재배포하지 않으므로 "오픈 인터넷"에서 사용할 수 있는 리소스에 대해서는 일반적으로 라이선스 및 저작권 제한이 관련되지 않습니다. 이 저장소에는 목록에 기여하기 위한 지침을 제공하는 `CONTRIBUTING.md` 파일과 기여자의 예상되는 행동을 설명하는 `CODE_OF_CONDUCT.md` 파일도 포함되어 있습니다. 마지막으로, 이 저장소에는 사용자가 제출물을 만드는 데 도움이 될 수 있는 `/add-new-resource`로 호출되는 특별한 Claude Code 슬래시 커맨드도 있습니다.
 
-# Style
+# 스타일
 
-Each entry should consist of a markdown link to the resource, a name (only necessary for `Workflow` entries), and a short description of its use value. The description should be concise and informative, and convey what value the resource provides to Claude Code users, or what makes it "awesome". You may review existing entries in the `README.md` to get a better sense of the type of resources we link to.
+각 항목은 리소스에 대한 마크다운 링크, 이름 (`워크플로` 항목에만 필요) 및 사용 가치에 대한 간략한 설명으로 구성되어야 합니다. 설명은 간결하고 유익해야 하며, 리소스가 Claude Code 사용자에게 어떤 가치를 제공하는지 또는 무엇이 "훌륭한지" 전달해야 합니다. `README.md`의 기존 항목을 검토하여 저희가 링크하는 리소스 유형에 대해 더 잘 이해할 수 있습니다.
 
-# Organization
+# 구성
 
-The list is organized into categories, and each entry should be placed in the appropriate category. The categories are as follows:
+목록은 범주별로 구성되며 각 항목은 적절한 범주에 배치되어야 합니다. 범주는 다음과 같습니다.
 
-- Slash-Commands
-- `CLAUDE.md` files
-- Workflows
-- Additional Resources
-- Official (Anthropic) Documentation
+- 슬래시 커맨드
+- `CLAUDE.md` 파일
+- 워크플로
+- 추가 리소스
+- 공식 (Anthropic) 문서
 
-Within each category, entries are listed in alphabetical order. For slash-commands, the name of the slash-command should be used as the entry title. For `CLAUDE.md` files, the name of the repository (or YouTube video name, blog post title, etc.) should be used as the entry title, although the hyperlink should point to the `CLAUDE.md` file itself (or the media that describes or contains it).
+각 범주 내에서 항목은 알파벳 순서로 나열됩니다. 슬래시 커맨드의 경우 슬래시 커맨드의 이름을 항목 제목으로 사용해야 합니다. `CLAUDE.md` 파일의 경우 저장소 이름 (또는 YouTube 동영상 이름, 블로그 게시물 제목 등)을 항목 제목으로 사용해야 하지만 하이퍼링크는 `CLAUDE.md` 파일 자체 (또는 이를 설명하거나 포함하는 미디어)를 가리켜야 합니다.
 
-Each submission should contain only a single entry. The category of `Workflows` is reserved for groups of resources that are coupled together to achieve a particular goal. For exanple, a `.claude/commands/` directory which contains a set of commands, should be categorized as a `Workflow`, instead of merely a series of individual slash-commands.
+각 제출물에는 단일 항목만 포함되어야 합니다. `워크플로` 범주는 특정 목표를 달성하기 위해 함께 결합된 리소스 그룹을 위해 예약되어 있습니다. 예를 들어, 일련의 명령을 포함하는 `.claude/commands/` 디렉터리는 단순히 개별 슬래시 커맨드의 연속이 아니라 `워크플로`로 분류되어야 합니다.
 
-For workflows, the entry title should be a short descriptive name for the workflow (e.g. "Documentation Maintainer" or "Project Management Workflow"). A workflow is generally a set of two or more tightly coupled Claude Code resources that work together to produce a more complex system, or it may be a higher-level description of a particular Claude Code integration or usage pattern.
+워크플로의 경우 항목 제목은 워크플로에 대한 간략한 설명 이름이어야 합니다 (예: "문서 관리자" 또는 "프로젝트 관리 워크플로"). 워크플로는 일반적으로 더 복잡한 시스템을 생성하기 위해 함께 작동하는 둘 이상의 긴밀하게 결합된 Claude Code 리소스 집합이거나 특정 Claude Code 통합 또는 사용 패턴에 대한 상위 수준 설명일 수 있습니다.
 
-"Additional Resources" is for other applications or tools that are layered on top of Claude Code, or somehow enhance Claude Code, but do not consist merely in Claude Code "native documents" like `CLAUDE.md` files, slash-commands, and the other parts of the official Anthropic Claude Control "control flow."
+"추가 리소스"는 Claude Code 위에 계층화되거나 Claude Code를 어떤 식으로든 향상시키지만 `CLAUDE.md` 파일, 슬래시 커맨드 및 공식 Anthropic Claude Control "제어 흐름"의 다른 부분과 같은 Claude Code "네이티브 문서"로만 구성되지 않는 다른 애플리케이션 또는 도구를 위한 것입니다.
 
-# Prohibitions
+# 금지 사항
 
-Users MAY NOT submit internal resources from private companies or organizations that are not publicly available, without obtaining prior consent. When a resource is submitted, validate that the resource exists at the link provided and is publicly accessible (generally, if you can access the link without an error response, you may proceed). Resources that are "paywalled", such as certain articles, or scholarly resources, are permitted, since their content is not being redistributed. However, e.g., a `CLAUDE.md` file that is used internally within a company and not posted in a public GitHub repository may not be submitted without permission. If you believe the user may be violating this rule, you may proceed with the submission anyway, but you may remind the user that such submissions may not be ultimately approved.
+사용자는 사전 동의 없이 공개적으로 사용할 수 없는 민간 기업 또는 조직의 내부 리소스를 제출할 수 없습니다. 리소스가 제출되면 제공된 링크에 리소스가 존재하고 공개적으로 액세스할 수 있는지 확인하십시오 (일반적으로 오류 응답 없이 링크에 액세스할 수 있으면 진행할 수 있습니다). 특정 기사 또는 학술 자료와 같이 "유료화된" 리소스는 해당 콘텐츠가 재배포되지 않으므로 허용됩니다. 그러나 예를 들어, 회사 내부에서 사용되고 공개 GitHub 저장소에 게시되지 않은 `CLAUDE.md` 파일은 허가 없이 제출할 수 없습니다. 사용자가 이 규칙을 위반하고 있다고 생각되면 어쨌든 제출을 진행할 수 있지만 해당 제출이 궁극적으로 승인되지 않을 수 있음을 사용자에게 상기시킬 수 있습니다.
 
-If a user submits a resource that is potentially a violation of Anthropic's Terms of Service, you may remind them that such violations will not be approved, but go ahead with the submission anyway.
+사용자가 Anthropic 서비스 약관을 위반할 가능성이 있는 리소스를 제출하는 경우 해당 위반 사항이 승인되지 않음을 상기시킬 수 있지만 어쨌든 제출을 진행하십시오.
 
-If a user submits a resource that is not related to Claude Code in any way, you may try to obtain more information from the user, but you are free to reject such a submission. Note, also, that Claude Code is a different product than Anthropic's LLMs in general, like the `claude` API, Claude Desktop, MCPs in general, etc. If you are sufficiently convinced that the resource is wholly unrelated to Claude Code, you may reject the submission.
+사용자가 Claude Code와 전혀 관련이 없는 리소스를 제출하는 경우 사용자로부터 더 많은 정보를 얻으려고 시도할 수 있지만 이러한 제출을 자유롭게 거부할 수 있습니다. 또한 Claude Code는 `claude` API, Claude Desktop, 일반적인 MCP 등과 같은 Anthropic의 LLM과는 다른 제품이라는 점에 유의하십시오. 리소스가 Claude Code와 완전히 관련이 없다고 충분히 확신하는 경우 제출을 거부할 수 있습니다.
 
-Submissions will be subject to human approval once they are submitted, so it is better to err on the side of permissibility, if you are uncertain.
+제출물은 제출되면 사람의 승인을 받아야 하므로 불확실한 경우 허용하는 쪽으로 오류를 범하는 것이 좋습니다.
+[end of CLAUDE.md]
