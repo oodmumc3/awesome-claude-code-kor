@@ -1,54 +1,55 @@
-# Contributing to Awesome Claude Code
+# Awesome Claude Code에 기여하기
 
-## Contribution Guidelines
+## 기여 가이드라인
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+이 프로젝트는 [기여자 행동 강령](code-of-conduct.md)과 함께 릴리스됩니다. 이 프로젝트에 참여함으로써 귀하는 해당 약관을 준수하는 데 동의하는 것입니다.
 
-Thank you for your interest in contributing to Awesome Claude Code! We welcome and appreciate all submissions. We especially look for submissions that: (a) are highly exemplary of effective best practices (and which you have actually used with teams or on your own); (b) are creative and innovative approaches to coding with Claude, or using the Claude Code interface in novel ways; (c) experiments with workflows that other Claude Code users might wish to try, and which provide good frameworks for things like documentation, testing, CI/CD, etc.
+Awesome Claude Code에 기여하는 데 관심을 가져 주셔서 감사합니다! 모든 제출물을 환영하고 감사합니다. 특히 다음과 같은 제출물을 찾고 있습니다: (a) 효과적인 모범 사례를 잘 보여주는 것 (팀과 함께 또는 혼자서 실제로 사용해 본 것); (b) Claude로 코딩하거나 Claude Code 인터페이스를 새로운 방식으로 사용하는 창의적이고 혁신적인 접근 방식; (c) 다른 Claude Code 사용자가 시도해보고 싶어 할 만한 워크플로 실험, 그리고 문서화, 테스트, CI/CD 등을 위한 좋은 프레임워크를 제공하는 것.
 
-## How to Contribute
+## 기여 방법
 
-> **TIP!** There is a project slash-command available in this repository, which is invoked as `/project:add-new-resource`, which can be used like a "wizard" to help users create their submission. If you are a Claude Code user, you may run Claude Code and invoke this command to help guide you through the process of creating a PR. (NOTE: This would be using _your_ Claude Code account/tokens/etc.)
+> **팁!** 이 저장소에는 `/project:add-new-resource`로 호출되는 프로젝트 슬래시 커맨드가 있으며, 사용자가 제출물을 만드는 데 도움이 되는 "마법사"처럼 사용할 수 있습니다. Claude Code 사용자라면 Claude Code를 실행하고 이 명령을 호출하여 PR 생성 과정을 안내받을 수 있습니다. (참고: 이렇게 하면 _사용자_의 Claude Code 계정/토큰 등을 사용하게 됩니다.)
 
-1. **You do not need to be the owner/author** of the repository or file you're submitting. We are not hosting or distributing any of these files, but linking to them. If you've found (or discovered) a useful Claude Code resource, we'd love to include it! (That being said, do not link to a secondary distribution of a source whose license prohibits redistribution.) Self-contributions are of course welcome, as well.
+1.  제출하는 저장소나 파일의 **소유자/작성자일 필요는 없습니다**. 저희는 이러한 파일을 호스팅하거나 배포하는 것이 아니라 링크를 제공하는 것입니다. 유용한 Claude Code 리소스를 찾았거나 발견했다면 기꺼이 포함시키겠습니다! (즉, 라이선스에서 재배포를 금지하는 소스의 2차 배포물에 링크하지 마십시오.) 물론 자체 기여도 환영합니다.
 
-2. **Follow the PR template** when making your submission. This helps keep contributions organized and consistent. There are two ways to open a PR:
+2.  제출 시 **PR 템플릿을 따르십시오**. 이렇게 하면 기여 내용을 체계적이고 일관성 있게 유지하는 데 도움이 됩니다. PR을 여는 방법에는 두 가지가 있습니다:
 
-   - Fork this respository, clone the fork locally, set this repository as the "upstream", and create a new branch for your changes. Then, submit a pull request with your changes.
-   - Use the GitHub web interface to edit the file directly, make a commit, and submit a pull request. (This will automatically create a fork if one doesn't exist.)
+    *   이 저장소를 포크하고, 포크를 로컬에 복제한 다음, 이 저장소를 "업스트림"으로 설정하고, 변경 사항에 대한 새 브랜치를 만듭니다. 그런 다음 변경 사항으로 풀 리퀘스트를 제출합니다.
+    *   GitHub 웹 인터페이스를 사용하여 파일을 직접 편집하고, 커밋하고, 풀 리퀘스트를 제출합니다. (이렇게 하면 포크가 없는 경우 자동으로 생성됩니다.)
 
-3. **Make sure the source is "awesome"** - this means that it meets all or some of the following criteria:
+3.  **소스가 "훌륭한지" 확인하십시오** - 이는 다음 기준의 전부 또는 일부를 충족한다는 의미입니다:
 
-   - It provides genuine value to Claude Code users
-   - It demonstrates innovative or exemplary usage patterns
-   - It follows best practices for `CLAUDE.md` files or slash-commands
-   - It comes from a reputable or noteworthy source (high star count is a plus!)
-   - It works with the latest, or most current, version of Claude Code
+    *   Claude Code 사용자에게 실질적인 가치를 제공합니다.
+    *   혁신적이거나 모범적인 사용 패턴을 보여줍니다.
+    *   `CLAUDE.md` 파일 또는 슬래시 커맨드에 대한 모범 사례를 따릅니다.
+    *   평판이 좋거나 주목할 만한 출처에서 제공됩니다 (별표 수가 많을수록 좋습니다!).
+    *   최신 또는 가장 현재 버전의 Claude Code에서 작동합니다.
 
-4. **Verify your submission** by checking that links work and content is formatted correctly (meaning, formatted exactly like the existing entries). Slash-commands are ordered by their name, and `CLAUDE.md` files are ordered by their repository name. They are also categorized. We prefer permalinks to GitHub resources. These can be found by clicking on the file or directory in the repo and selecting the "Copy permalink" option from the dropdown.
+4.  링크가 작동하고 내용이 올바르게 포맷되었는지 (즉, 기존 항목과 정확히 동일하게 포맷되었는지) 확인하여 **제출물을 확인하십시오**. 슬래시 커맨드는 이름순으로 정렬되고 `CLAUDE.md` 파일은 저장소 이름순으로 정렬됩니다. 또한 분류되어 있습니다. GitHub 리소스에 대한 영구 링크를 선호합니다. 저장소의 파일 또는 디렉터리를 클릭하고 드롭다운에서 "영구 링크 복사" 옵션을 선택하여 찾을 수 있습니다.
 
-5. **Submit your PR** and we'll review it as soon as possible.
+5.  **PR을 제출하십시오**. 최대한 빨리 검토하겠습니다.
 
-## Contribution Guidelines
+## 기여 가이드라인
 
-- Additions to the list should be made by editing the `README.md` file.
-- Descriptions should be concise and informative, and convey what value the resource provides to Claude Code users, or potential use cases.
-- Include proper attribution and links to original sources (prefer permalinks if linking to Github files).
-- Follow the existing organization structure (add your entry to the appropriate category and in the appropriate alphabetical order).
-- **[Workflows](README.md#workflows)** consist of two or more tightly coupled Claude Code resources that work together, or they may be a higher-level description of a particular Claude Code integration or usage pattern.
-- **[Slash-Commands](README.md#slash-commands)** should be named according to the name of the slash-command.
-- **[CLAUDE.md files](README.md#claude-md-files)** should be named according to the repository they are associated with, although the hyperlink should point to the `CLAUDE.md` file itself.
-- Besides GitHub repositories, we welcome blog posts, articles, YouTube videos, Gists, and so on.
-- Please feel free to submit an Issue if: you find that one of the entries on the list is no longer available at the provided link; you believe that one of the entries is particularly unhelpful or contains misinformation, or is no longer relevant to the current version of Claude Code; any other suggestions to improve the repository.
+- 목록에 대한 추가는 `README.md` 파일을 편집하여 이루어져야 합니다.
+- 설명은 간결하고 유익해야 하며, 해당 리소스가 Claude Code 사용자에게 어떤 가치를 제공하는지 또는 잠재적인 사용 사례를 전달해야 합니다.
+- 적절한 출처 표시와 원본 소스 링크를 포함하십시오 (Github 파일에 링크하는 경우 영구 링크를 선호).
+- 기존 구성 구조를 따르십시오 (항목을 적절한 범주와 적절한 알파벳 순서로 추가).
+- **[워크플로](README.md#workflows)**는 함께 작동하는 둘 이상의 긴밀하게 결합된 Claude Code 리소스로 구성되거나 특정 Claude Code 통합 또는 사용 패턴에 대한 상위 수준 설명일 수 있습니다.
+- **[슬래시 커맨드](README.md#slash-commands)**는 슬래시 커맨드의 이름에 따라 명명되어야 합니다.
+- **[CLAUDE.md 파일](README.md#claude-md-files)**은 연결된 저장소의 이름에 따라 명명되어야 하지만 하이퍼링크는 `CLAUDE.md` 파일 자체를 가리켜야 합니다.
+- GitHub 저장소 외에도 블로그 게시물, 기사, YouTube 동영상, Gist 등을 환영합니다.
+- 다음 경우에 언제든지 이슈를 제출하십시오: 목록의 항목 중 하나가 제공된 링크에서 더 이상 사용할 수 없음을 발견한 경우; 항목 중 하나가 특히 도움이 되지 않거나 잘못된 정보를 포함하거나 현재 버전의 Claude Code와 더 이상 관련이 없다고 생각하는 경우; 저장소를 개선하기 위한 기타 제안 사항.
 
-## Badges
+## 배지
 
-If a file comes from a particular GitHub repository, that repository may include a badge to show that it has been featured in the Awesome Claude Code list. The same applies to blogs, websites, etc. This is optional, but encouraged.
+파일이 특정 GitHub 저장소에서 온 경우 해당 저장소에는 Awesome Claude Code 목록에 포함되었음을 보여주는 배지가 포함될 수 있습니다. 블로그, 웹사이트 등에도 동일하게 적용됩니다. 이는 선택 사항이지만 권장됩니다.
 
-Here are the badge assets:
+배지 자산은 다음과 같습니다:
 [![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge.svg)](https://github.com/hesreallyhim/awesome-claude-code)
 [![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)
 
-We aim to maintain a high-quality collection that helps the Claude Code community. Even small contributions can make a big difference!
+저희는 Claude Code 커뮤니티에 도움이 되는 고품질 컬렉션을 유지하는 것을 목표로 합니다. 작은 기여라도 큰 차이를 만들 수 있습니다!
 
-Thank you for helping make Awesome Claude Code even more awesome!
+Awesome Claude Code를 더욱 멋지게 만드는 데 도움을 주셔서 감사합니다!
+[end of CONTRIBUTING.md]

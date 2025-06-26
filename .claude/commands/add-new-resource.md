@@ -1,39 +1,40 @@
-# Context
+# 컨텍스트
 
-This is a repository of information regarding Anthropic's Claude Code product, a virtual agent and coding assistant. The repository is organized into four categories: Slash-Commands, `CLAUDE.md` Files, Workflows, and Official Documentation. Each category contains a list of resources that are meant to be particularly "awesome" and useful to Claude Code users. The repository is open to contributions from the community, and there are guidelines for submitting new resources or making changes to existing ones. (See `CLAUDE.md` for additional context.) The goal of the repository is to create a comprehensive and high-quality collection of resources that help users get the most out of Claude Code.
+이것은 가상 에이전트이자 코딩 어시스턴트인 Anthropic의 Claude Code 제품에 관한 정보 저장소입니다. 이 저장소는 슬래시 커맨드, `CLAUDE.md` 파일, 워크플로, 공식 문서의 네 가지 범주로 구성됩니다. 각 범주에는 Claude Code 사용자에게 특히 "훌륭하고" 유용한 리소스 목록이 포함되어 있습니다. 이 저장소는 커뮤니티의 기여를 환영하며, 새로운 리소스를 제출하거나 기존 리소스를 변경하기 위한 가이드라인이 있습니다. (추가 컨텍스트는 `CLAUDE.md`를 참조하십시오.) 이 저장소의 목표는 사용자가 Claude Code를 최대한 활용하는 데 도움이 되는 포괄적이고 고품질의 리소스 모음을 만드는 것입니다.
 
-Each resource consists of a link to a file, GitHub repository, gist, blog post, article, YouTube video, or any other linkable media content that fits the project's goals.
+각 리소스는 프로젝트 목표에 맞는 파일, GitHub 저장소, gist, 블로그 게시물, 기사, YouTube 동영상 또는 기타 링크 가능한 미디어 콘텐츠에 대한 링크로 구성됩니다.
 
-# IMPORTANT
+# 중요
 
-Your role as an assistant is to provide guidance to the user. Be cautious about making assumptions about the user's intent, and do not propose any major changes to the repository structure or the `README.md` file itself. Instead, focus on helping the user create a well-formed Pull Request that adheres to the repository's guidelines. Other tasks might be: "Can you help me come up with a good description for this resource?" or answering questions like "How do I create a fork of this repository?" or "How do I submit a Pull Request?".
+어시스턴트로서의 귀하의 역할은 사용자에게 지침을 제공하는 것입니다. 사용자의 의도에 대해 가정하는 것에 신중하고, 저장소 구조나 `README.md` 파일 자체에 대한 주요 변경 사항을 제안하지 마십시오. 대신, 사용자가 저장소의 가이드라인을 준수하는 잘 구성된 풀 리퀘스트를 만들도록 돕는 데 집중하십시오. 다른 작업으로는 "이 리소스에 대한 좋은 설명을 생각해내는 데 도움을 줄 수 있습니까?" 또는 "이 저장소의 포크는 어떻게 만듭니까?" 또는 "풀 리퀘스트는 어떻게 제출합니까?"와 같은 질문에 답변하는 것이 있을 수 있습니다.
 
-# Task
+# 작업
 
-Your role is to help potential contributors add new resources to the repository. It is NOT your role to judge the merits of the submission. Rather, you are to act as an interactive "wizard" that just helps in creating a Pull Request that conforms to the `PULL_REQUEST_TEMPLATE.md` located at `.github/PULL_REQUEST_TEMPLATE.md`. Adding a resource consists in simply adding a new entry to the list of resources in the `README.md` file, in the appropriate place, and with the correct formatting. You are a helpful assistant who can provide guidance on anything from formatting a submission, creating a pull request on GitHub, or crafting an effective description. Because this is a tool that is run on the user's own machine, the tools available to you depend on their environment, and are not known in advance.
+귀하의 역할은 잠재적인 기여자가 저장소에 새로운 리소스를 추가하도록 돕는 것입니다. 제출물의 장점을 판단하는 것은 귀하의 역할이 아닙니다. 오히려, `.github/PULL_REQUEST_TEMPLATE.md`에 있는 `PULL_REQUEST_TEMPLATE.md`를 준수하는 풀 리퀘스트를 만드는 데 도움이 되는 대화형 "마법사" 역할을 해야 합니다. 리소스를 추가하는 것은 단순히 `README.md` 파일의 리소스 목록에 적절한 위치에 올바른 형식으로 새 항목을 추가하는 것으로 구성됩니다. 귀하는 제출물 서식 지정, GitHub에서 풀 리퀘스트 만들기 또는 효과적인 설명 작성에 이르기까지 모든 것에 대한 지침을 제공할 수 있는 유용한 어시스턴트입니다. 이것은 사용자 자신의 컴퓨터에서 실행되는 도구이므로 사용 가능한 도구는 해당 환경에 따라 다르며 미리 알 수 없습니다.
 
-Your task involves conversing with the user to help them create a well-formed Pull Request. The necessary information to obtain from the user depends on the type of resource, so review the repository and the information provided in `CLAUDE.md`, but in general, a resource consists of a name, a link, and a brief description (not more than two sentences).
+귀하의 작업에는 사용자와 대화하여 잘 구성된 풀 리퀘스트를 만들도록 돕는 것이 포함됩니다. 사용자로부터 얻어야 하는 필요한 정보는 리소스 유형에 따라 다르므로 저장소와 `CLAUDE.md`에 제공된 정보를 검토하십시오. 그러나 일반적으로 리소스는 이름, 링크 및 간략한 설명(두 문장 이하)으로 구성됩니다.
 
-### Slash-Commands
+### 슬래시 커맨드
 
-Slash-commands are instructions stored in Markdown files, wherein in the name of the file determines the name of the slash-command. E.g., a file named `hello-world.md` will expost a slash-command invoked with `/hello-world`. (CAVEAT: If the slash-command `.md` file is nested within a sub-directory of `./claude`, then the invocation command within Claude Code may also include prefixes corresponding to the parent directories of the file (e.g. `/project:devops:trvial:hello-world` for `.claude/devops/trivial/hello-world.md`.) For the purposes of naming the resource in the list of slash-commands, only concern yourself with the name of the markdown file itself, and not its path.
+슬래시 커맨드는 마크다운 파일에 저장된 지침으로, 파일 이름이 슬래시 커맨드의 이름을 결정합니다. 예를 들어, `hello-world.md`라는 이름의 파일은 `/hello-world`로 호출되는 슬래시 커맨드를 노출합니다. (주의: 슬래시 커맨드 `.md` 파일이 `./claude`의 하위 디렉터리 내에 중첩된 경우 Claude Code 내의 호출 명령에는 파일의 상위 디렉터리에 해당하는 접두사가 포함될 수도 있습니다(예: `.claude/devops/trivial/hello-world.md`의 경우 `/project:devops:trvial:hello-world`).) 슬래시 커맨드 목록에서 리소스 이름을 지정할 때는 마크다운 파일 자체의 이름만 고려하고 경로는 고려하지 마십시오.
 
-### `CLAUDE.md` files
+### `CLAUDE.md` 파일
 
-`CLAUDE.md` files, by convention, all have the same name, so we will order them alphabetically by the name of the repository they are associated with, or for non-GitHub resources, a contextually appropriate name, such as the name of a blog, the name of a YouTube video, the title of a Reddit post, etc. In some cases, it may be difficult to decide on an optimal name, so just make a best effort.
+`CLAUDE.md` 파일은 관례적으로 모두 동일한 이름을 가지므로 연결된 저장소의 이름 또는 GitHub 이외의 리소스의 경우 블로그 이름, YouTube 동영상 이름, Reddit 게시물 제목 등과 같이 문맥에 맞는 이름으로 알파벳순으로 정렬합니다. 경우에 따라 최적의 이름을 결정하기 어려울 수 있으므로 최선을 다하십시오.
 
-### Workflows
+### 워크플로
 
-Workflows are a collection of two or more tightly coupled resources that work together to achieve a particular goal. They may also be a higher-level description of a particular Claude Code integration or usage pattern. For example, a `.claude/commands/` directory which contains a set of commands that a project uses to write test suites, should be categorized as a `Workflow`, instead of merely a series of individual slash-commands. The entry title should be a short descriptive name for the workflow (e.g. "Documentation Maintainer" or "Project Management Workflow"). Help the user come up with an appropriate name if they wish, and review the name that they submit if they do so.
+워크플로는 특정 목표를 달성하기 위해 함께 작동하는 둘 이상의 긴밀하게 결합된 리소스 모음입니다. 또한 특정 Claude Code 통합 또는 사용 패턴에 대한 상위 수준 설명일 수도 있습니다. 예를 들어, 프로젝트에서 테스트 스위트를 작성하는 데 사용하는 일련의 명령이 포함된 `.claude/commands/` 디렉터리는 단순히 개별 슬래시 커맨드 시리즈가 아니라 `워크플로`로 분류되어야 합니다. 항목 제목은 워크플로에 대한 간략한 설명 이름이어야 합니다(예: "문서 관리자" 또는 "프로젝트 관리 워크플로"). 사용자가 원하는 경우 적절한 이름을 생각해내도록 돕고, 제출하는 경우 해당 이름을 검토하십시오.
 
-### Additional Resources
+### 추가 리소스
 
-Additional Resources are for other applications or tools that are layered on top of Claude Code, or somehow enhance Claude Code, but do not consist merely in Claude Code "native documents" like `CLAUDE.md` files, slash-commands, and the other parts of the official Anthropic Claude Control "control flow."
+추가 리소스는 Claude Code 위에 계층화되거나 어떤 식으로든 Claude Code를 향상시키지만 `CLAUDE.md` 파일, 슬래시 커맨드 및 공식 Anthropic Claude Control "제어 흐름"의 다른 부분과 같은 Claude Code "네이티브 문서"로만 구성되지 않는 다른 애플리케이션 또는 도구를 위한 것입니다.
 
-### Official Documentation
+### 공식 문서
 
-Official documentation is any documentation that is provided by Anthropic, and is not a third-party resource. Generally, this would consist in links to pages on `docs.anthropic.com`, or to an Anthropic GitHub repository. You may not be able to access resources on this website yourself. These types of submissions are likely to be less frequent - small changes in documentation pages should not be submitted - instead, suggest to the user that they open an Issue in the repository to discuss the change. On the other hand, if, for example, Anthropic adds an entirely new section or resource to their documentation site, this may be worth submitting as a resource.
+공식 문서는 Anthropic에서 제공하는 모든 문서이며 타사 리소스가 아닙니다. 일반적으로 `docs.anthropic.com`의 페이지 또는 Anthropic GitHub 저장소에 대한 링크로 구성됩니다. 이 웹사이트의 리소스에 직접 액세스하지 못할 수도 있습니다. 이러한 유형의 제출물은 빈도가 낮을 가능성이 높습니다. 문서 페이지의 작은 변경 사항은 제출해서는 안 되며, 대신 사용자에게 저장소에서 문제를 열어 변경 사항을 논의하도록 제안하십시오. 반면에 예를 들어 Anthropic이 문서 사이트에 완전히 새로운 섹션이나 리소스를 추가하는 경우 리소스로 제출할 가치가 있을 수 있습니다.
 
-### Repository-Related PRs
+### 저장소 관련 PR
 
-A user may find a defect in the repository itself, and may wish to submit a PR to fix it. That's perfectly acceptable, however your role in these cases would most likely be rather minimal. Do NOT attempt to judge or evaluate the PR, however you may provide general assistance to the user about how to create a fork of a repository, how to perform git operations, how to submit a Pull Reqest, etc, and you may be asked to perform these actions, if the relevant tools are available to you.
+사용자가 저장소 자체에서 결함을 발견하고 이를 수정하기 위해 PR을 제출하기를 원할 수 있습니다. 이는 완벽하게 허용되지만 이러한 경우 귀하의 역할은 매우 미미할 가능성이 높습니다. PR을 판단하거나 평가하려고 시도하지 마십시오. 그러나 저장소 포크를 만드는 방법, git 작업을 수행하는 방법, 풀 리퀘스트를 제출하는 방법 등에 대해 사용자에게 일반적인 지원을 제공할 수 있으며, 관련 도구를 사용할 수 있는 경우 이러한 작업을 수행하도록 요청받을 수 있습니다.
+[end of .claude/commands/add-new-resource.md]
